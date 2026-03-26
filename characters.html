@@ -29,33 +29,77 @@
         <p class="page-subtitle">登場人物紹介</p>
 
         <!-- Character: Ink Akeno -->
-        <div style="margin-bottom: 50px; border-bottom: 1px dashed var(--border-color); padding-bottom: 30px;">
-            <h3 style="font-size: 1.6rem; margin-bottom: 15px; display: flex; align-items: baseline; gap: 15px; border-left: 4px solid var(--accent-gold); padding-left: 10px;">
-                朱野 音九
-                <span style="font-size: 0.95rem; font-weight: normal; color: var(--accent-green); letter-spacing: 0.05em;">あかの いんく / 22歳</span>
-            </h3>
-            <ul style="list-style: square inside; margin-bottom: 15px; padding-left: 10px; line-height: 2;">
-                <li>代書屋いんくの主人公</li>
-                <li>静かで誠実、書類で人を守ることを信条とする</li>
-                <li>恩師から受け継いだ万年筆を使う</li>
-                <li>黒いリクルートスーツ、後ろでまとめた髪</li>
-            </ul>
+        <div class="character-item" onclick="openModal('onku')" style="border-bottom: 1px dashed var(--border-color); display: flex; gap: 20px; align-items: flex-start;">
+            <img src="images/char_onku_1.png" alt="朱野 音九" style="width: 60px; height: 80px; object-fit: cover; border-radius: 4px; flex-shrink: 0;" onerror="this.src='data:image/svg+xml;charset=utf-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'60\' height=\'80\' viewBox=\'0 0 60 80\'%3E%3Crect width=\'60\' height=\'80\' fill=\'%23f5f0e8\' stroke=\'%232c1810\'/%3E%3Ctext x=\'50%25\' y=\'50%25\' font-family=\'sans-serif\' font-size=\'10\' fill=\'%23888\' dominant-baseline=\'middle\' text-anchor=\'middle\'%3E%3C/text%3E%3C/svg%3E';">
+            <div style="flex: 1;">
+                <h3 style="font-size: 1.6rem; margin-bottom: 15px; display: flex; align-items: baseline; gap: 15px; border-left: 4px solid var(--accent-gold); padding-left: 10px;">
+                    朱野 音九
+                    <span style="font-size: 0.95rem; font-weight: normal; color: var(--accent-green); letter-spacing: 0.05em;">あかの いんく / 22歳</span>
+                </h3>
+                <p style="line-height: 2; margin: 0; padding-left: 10px;">
+                    代書屋いんくの主人公。恩師から受け継いだ万年筆を手に、人生の岐路に立つ人々の決意を書類という形に変えていく。静かで誠実、言葉少なだが、依頼人の本音を引き出す聞き上手。黒いリクルートスーツに後ろでまとめた髪が、いつもの装い。
+                </p>
+            </div>
+        </div>
+
+        <!-- Character: Haru Tosaka -->
+        <div class="character-item" onclick="openModal('haru')" style="border-bottom: 1px dashed var(--border-color); display: flex; gap: 20px; align-items: flex-start;">
+            <img src="images/char_haru_1.png" alt="十坂 春" style="width: 60px; height: 80px; object-fit: cover; border-radius: 4px; flex-shrink: 0;" onerror="this.src='data:image/svg+xml;charset=utf-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'60\' height=\'80\' viewBox=\'0 0 60 80\'%3E%3Crect width=\'60\' height=\'80\' fill=\'%23f5f0e8\' stroke=\'%232c1810\'/%3E%3Ctext x=\'50%25\' y=\'50%25\' font-family=\'sans-serif\' font-size=\'10\' fill=\'%23888\' dominant-baseline=\'middle\' text-anchor=\'middle\'%3E%3C/text%3E%3C/svg%3E';">
+            <div style="flex: 1;">
+                <h3 style="font-size: 1.6rem; margin-bottom: 15px; display: flex; align-items: baseline; gap: 15px; border-left: 4px solid #4a593d; padding-left: 10px;">
+                    十坂 春
+                    <span style="font-size: 0.95rem; font-weight: normal; color: var(--accent-green); letter-spacing: 0.05em;">とおさか はる</span>
+                </h3>
+                <p style="line-height: 2; margin: 0; padding-left: 10px;">
+                    一木あやめの幼なじみ。明るくさっぱりした性格で、あやめの夢を誰よりも信じている。バンドでギターを担当し、あやめを東京へ送り出す。感情をストレートに表現するが、その言葉はいつも真剣だ。
+                </p>
+            </div>
         </div>
 
         <!-- Character: Noa Iokawa -->
-        <div style="margin-bottom: 50px; border-bottom: 1px dashed var(--border-color); padding-bottom: 30px;">
-            <h3 style="font-size: 1.6rem; margin-bottom: 15px; display: flex; align-items: baseline; gap: 15px; border-left: 4px solid var(--accent-green); padding-left: 10px;">
-                五百川 乃亜
-                <span style="font-size: 0.95rem; font-weight: normal; color: var(--accent-green); letter-spacing: 0.05em;">いおかわ のあ</span>
-            </h3>
-            <ul style="list-style: square inside; margin-bottom: 15px; padding-left: 10px; line-height: 2;">
-                <li>音九の友人、配達員</li>
-                <li>第2話にゲスト出演</li>
-            </ul>
+        <div class="character-item" onclick="openModal('noa')" style="border-bottom: 1px dashed var(--border-color); display: flex; gap: 20px; align-items: flex-start;">
+            <img src="images/char_noa_1.png" alt="五百川 乃亜" style="width: 60px; height: 80px; object-fit: cover; border-radius: 4px; flex-shrink: 0;" onerror="this.src='data:image/svg+xml;charset=utf-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'60\' height=\'80\' viewBox=\'0 0 60 80\'%3E%3Crect width=\'60\' height=\'80\' fill=\'%23f5f0e8\' stroke=\'%232c1810\'/%3E%3Ctext x=\'50%25\' y=\'50%25\' font-family=\'sans-serif\' font-size=\'10\' fill=\'%23888\' dominant-baseline=\'middle\' text-anchor=\'middle\'%3E%3C/text%3E%3C/svg%3E';">
+            <div style="flex: 1;">
+                <h3 style="font-size: 1.6rem; margin-bottom: 15px; display: flex; align-items: baseline; gap: 15px; border-left: 4px solid var(--accent-green); padding-left: 10px;">
+                    五百川 乃亜
+                    <span style="font-size: 0.95rem; font-weight: normal; color: var(--accent-green); letter-spacing: 0.05em;">いおかわ のあ</span>
+                </h3>
+                <p style="line-height: 2; margin: 0; padding-left: 10px;">
+                    音九の友人。郵便配達員のほか、いろんなアルバイトを掛け持ちして街をかけまわっている。黒縁メガネに黒髪ロング、大学生。どこにでも現れ、さりげなく誰かの助けになっている。
+                </p>
+            </div>
+        </div>
+
+        <!-- Character: Ruka Chigusa -->
+        <div class="character-item" onclick="openModal('ruka')" style="border-bottom: 1px dashed var(--border-color); display: flex; gap: 20px; align-items: flex-start;">
+            <img src="images/char_ruka_1.png" alt="千種 琉夏" style="width: 60px; height: 80px; object-fit: cover; border-radius: 4px; flex-shrink: 0;" onerror="this.src='data:image/svg+xml;charset=utf-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'60\' height=\'80\' viewBox=\'0 0 60 80\'%3E%3Crect width=\'60\' height=\'80\' fill=\'%23f5f0e8\' stroke=\'%232c1810\'/%3E%3Ctext x=\'50%25\' y=\'50%25\' font-family=\'sans-serif\' font-size=\'10\' fill=\'%23888\' dominant-baseline=\'middle\' text-anchor=\'middle\'%3E%3C/text%3E%3C/svg%3E';">
+            <div style="flex: 1;">
+                <h3 style="font-size: 1.6rem; margin-bottom: 15px; display: flex; align-items: baseline; gap: 15px; border-left: 4px solid #8b3a2a; padding-left: 10px;">
+                    千種 琉夏
+                    <span style="font-size: 0.95rem; font-weight: normal; color: var(--accent-green); letter-spacing: 0.05em;">ちぐさ るか</span>
+                </h3>
+                <p style="line-height: 2; margin: 0; padding-left: 10px;">
+                    明るく行動的な性格で、役者としての顔も持つ。誰かの人生の『役』に立てることを喜びとしている。
+                </p>
+            </div>
+        </div>
+
+        <!-- Character: Uno Shijimaya -->
+        <div class="character-item" onclick="openModal('uno')" style="border-bottom: 1px dashed var(--border-color); display: flex; gap: 20px; align-items: flex-start;">
+            <img src="images/char_uno_1.png" alt="四十万谷 うの" style="width: 60px; height: 80px; object-fit: cover; border-radius: 4px; flex-shrink: 0;" onerror="this.src='data:image/svg+xml;charset=utf-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'60\' height=\'80\' viewBox=\'0 0 60 80\'%3E%3Crect width=\'60\' height=\'80\' fill=\'%23f5f0e8\' stroke=\'%232c1810\'/%3E%3Ctext x=\'50%25\' y=\'50%25\' font-family=\'sans-serif\' font-size=\'10\' fill=\'%23888\' dominant-baseline=\'middle\' text-anchor=\'middle\'%3E%3C/text%3E%3C/svg%3E';">
+            <div style="flex: 1;">
+                <h3 style="font-size: 1.6rem; margin-bottom: 15px; display: flex; align-items: baseline; gap: 15px; border-left: 4px solid #2c1810; padding-left: 10px;">
+                    四十万谷 うの
+                    <span style="font-size: 0.95rem; font-weight: normal; color: var(--accent-green); letter-spacing: 0.05em;">しじまや うの</span>
+                </h3>
+                <p style="line-height: 2; margin: 0; padding-left: 10px;">
+                    代書屋いんくの上の階に住む高校生。普段は天然でマイペースだが、現場に立つと鋭い観察眼を発揮する自称名探偵。
+                </p>
+            </div>
         </div>
 
         <!-- Other clients -->
-        <div>
+        <div style="margin-top: 40px; padding: 20px;">
             <h3 style="font-size: 1.6rem; margin-bottom: 15px; border-left: 4px solid var(--text-color); padding-left: 10px;">各話の依頼人たち</h3>
             <p style="margin-bottom: 15px; padding-left: 10px; line-height: 2;">
                 それぞれの人生の岐路に立ち、音九のもとを訪れる人々。<br>
@@ -70,5 +114,126 @@
         </div>
     </footer>
 
+    <!-- Character Modal -->
+    <div id="characterModal" class="modal-overlay" onclick="closeModal(event)">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <span class="modal-close" onclick="closeModal(event)">&times;</span>
+            <div style="position: relative; width: 100%;">
+                <div id="modal-img-placeholder" class="modal-image-placeholder">NO IMAGE AVAILABLE</div>
+                <img id="modal-img" class="modal-image" src="" alt="Character Image" style="margin-bottom: 20px;">
+                <button id="carousel-prev" onclick="changeImage(-1, event)" style="position: absolute; top: calc(50% - 10px); left: 10px; transform: translateY(-50%); background: rgba(44, 24, 16, 0.7); color: white; border: 1px solid var(--accent-gold); font-size: 1.5rem; cursor: pointer; padding: 5px 15px; border-radius: 4px; display: none; z-index: 10;">&lt;</button>
+                <button id="carousel-next" onclick="changeImage(1, event)" style="position: absolute; top: calc(50% - 10px); right: 10px; transform: translateY(-50%); background: rgba(44, 24, 16, 0.7); color: white; border: 1px solid var(--accent-gold); font-size: 1.5rem; cursor: pointer; padding: 5px 15px; border-radius: 4px; display: none; z-index: 10;">&gt;</button>
+            </div>
+            <div style="margin-top: 10px;">
+                <h3 id="modal-name" style="font-size: 2rem; margin-bottom: 5px; border-bottom: 2px solid var(--accent-gold); display: inline-block;"></h3>
+                <p id="modal-ruby-age" style="font-size: 1rem; color: var(--accent-green); margin-bottom: 15px; letter-spacing: 0.05em;"></p>
+                <div id="modal-profile" style="line-height: 2;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentCharacterId = null;
+        let currentImageIndex = 0;
+
+        const charData = {
+            onku: {
+                name: '朱野 音九',
+                ruby_age: 'あかの いんく / 22歳',
+                profile: '代書屋いんくの主人公。恩師から受け継いだ万年筆を手に、人生の岐路に立つ人々の決意を書類という形に変えていく。<br>静かで誠実、言葉少なだが、依頼人の本音を引き出す聞き上手。<br>黒いリクルートスーツに後ろでまとめた髪が、いつもの装い。',
+                images: ['images/char_onku_1.png', 'images/char_onku_2.png', 'images/char_onku_3.png', 'images/char_onku_4.png']
+            },
+            haru: {
+                name: '十坂 春',
+                ruby_age: 'とおさか はる',
+                profile: '一木あやめの幼なじみ。明るくさっぱりした性格で、あやめの夢を誰よりも信じている。<br>バンドでギターを担当し、あやめを東京へ送り出す。<br>感情をストレートに表現するが、その言葉はいつも真剣だ。',
+                images: ['images/char_haru_1.png', 'images/char_haru_2.png', 'images/char_haru_3.png']
+            },
+            noa: {
+                name: '五百川 乃亜',
+                ruby_age: 'いおかわ のあ',
+                profile: '音九の友人。郵便配達員のほか、いろんなアルバイトを掛け持ちして街をかけまわっている。<br>黒縁メガネに黒髪ロング、大学生。<br>どこにでも現れ、さりげなく誰かの助けになっている。',
+                images: ['images/char_noa_1.png', 'images/char_noa_2.png', 'images/char_noa_3.png']
+            },
+            ruka: {
+                name: '千種 琉夏',
+                ruby_age: 'ちぐさ るか',
+                profile: '明るく行動的な性格で、役者としての顔も持つ。<br>誰かの人生の『役』に立てることを喜びとしている。',
+                images: ['images/char_ruka_1.png', 'images/char_ruka_2.png', 'images/char_ruka_3.png']
+            },
+            uno: {
+                name: '四十万谷 うの',
+                ruby_age: 'しじまや うの',
+                profile: '代書屋いんくの上の階に住む高校生。<br>普段は天然でマイペースだが、現場に立つと鋭い観察眼を発揮する自称名探偵。',
+                images: ['images/char_uno_1.png', 'images/char_uno_2.png', 'images/char_uno_3.png']
+            }
+        };
+
+        function updateImageDisplay() {
+            const data = charData[currentCharacterId];
+            const imgEl = document.getElementById('modal-img');
+            const placeholderEl = document.getElementById('modal-img-placeholder');
+            
+            if (!data.images || data.images.length === 0) return;
+
+            imgEl.onload = function() {
+                imgEl.style.display = 'block';
+                placeholderEl.style.display = 'none';
+            };
+            
+            imgEl.onerror = function() {
+                imgEl.style.display = 'none';
+                placeholderEl.style.display = 'flex';
+            };
+            
+            imgEl.src = '';
+            setTimeout(function() {
+                imgEl.src = data.images[currentImageIndex];
+            }, 10);
+
+            // Update arrow visibility
+            document.getElementById('carousel-prev').style.display = data.images.length > 1 ? 'block' : 'none';
+            document.getElementById('carousel-next').style.display = data.images.length > 1 ? 'block' : 'none';
+        }
+
+        function changeImage(direction, event) {
+            if (event) event.stopPropagation();
+            const data = charData[currentCharacterId];
+            if (!data.images || data.images.length === 0) return;
+
+            currentImageIndex += direction;
+            if (currentImageIndex < 0) currentImageIndex = data.images.length - 1;
+            if (currentImageIndex >= data.images.length) currentImageIndex = 0;
+
+            updateImageDisplay();
+        }
+
+        function openModal(id) {
+            const data = charData[id];
+            if (!data) return;
+
+            currentCharacterId = id;
+            currentImageIndex = 0;
+
+            document.getElementById('modal-name').innerHTML = data.name;
+            document.getElementById('modal-ruby-age').innerHTML = data.ruby_age;
+            document.getElementById('modal-profile').innerHTML = data.profile;
+
+            updateImageDisplay();
+
+            const modal = document.getElementById('characterModal');
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal(e) {
+            if (e) {
+                e.preventDefault();
+            }
+            const modal = document.getElementById('characterModal');
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+    </script>
 </body>
 </html>
