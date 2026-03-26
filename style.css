@@ -338,3 +338,36 @@ h1, h2, h3, h4 {
     justify-content: center;
   }
 }
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: var(--bg-color);
+  border: 1px solid var(--accent-gold);
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 0.85rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+.btn:hover {
+  background-color: var(--accent-gold);
+  color: #fff;
+}
+.btn.disabled {
+  border-color: #ccc;
+  color: #888;
+  pointer-events: none;
+  background-color: transparent;
+}
+.custom-audio {
+  width: 100%;
+  border-radius: 4px;
+  outline: none;
+  filter: sepia(0.5) hue-rotate(-30deg) saturate(0.8) opacity(0.9);
+}
+.audio-wrapper {
+  margin-top: 15px;
+  text-align: left;
+}
